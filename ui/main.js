@@ -1,16 +1,18 @@
-console.log('Loaded!');
-//change the text of main-text div
-var element=document.getElementById('main-text');
-element.innerHTML='New value';
-//move the image
-var img=document.getElementById('madi');
-var marginRight=0;
-function moveLeft()
+//counter code
+var button=document.getElementById('counter');
+button.onclick=function()
 {
-    marginRight=marginRight + 10;
-    img.style.marginRight=marginRight+ 'px';
-}
-img.onclick=function()
-{
-    var interval=setInterval(moveLeft,50);
+    var request=new XMLHttpRequest();
+    request.onreadystatechange=function()
+    {
+       if(request.readystate==XMLHttpRequestDONE)
+       {
+           if(request.status==200)
+           {
+               var counter=request.responseText;
+               var span=document.getElementById('count');
+               span.innerHTML=counter.toString();
+           }
+       }
+    };
 };

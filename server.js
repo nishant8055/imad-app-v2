@@ -18,26 +18,26 @@ var articles={
     `
 },
 'article-two':{
-    title:'Article One..Nishant',
+    title:'Article Two..Nishant',
     heading:'Article One',
-    date:'Feb 10,2017',
+    date:'Feb 11,2017',
     content:` <p>
-                this is the content for my first article.this is the content for my first article.this is the content for my first article.
+                this is the content for my second article.this is the content for my second article.this is the content for my second article.
                 </p>
                 <p>
-                this is the content for my first article.this is the content for my first article.this is the content for my first article.
+                this is the content for my second article.this is the content for my second article.this is the content for my second article.
                 </p>
     `
 },
 'article-three':{
-    title:'Article One..Nishant',
+    title:'Article Three..Nishant',
     heading:'Article One',
-    date:'Feb 10,2017',
+    date:'Feb 12,2017',
     content:` <p>
-                this is the content for my first article.this is the content for my first article.this is the content for my first article.
+                this is the content for my third article.this is the content for my third article.this is the content for my third article.
                 </p>
                 <p>
-                this is the content for my first article.this is the content for my first article.this is the content for my first article.
+                this is the content for my third article.this is the content for my third article.this is the content for my third article.
                 </p>
     `
 },

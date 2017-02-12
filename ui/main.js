@@ -1,4 +1,4 @@
-//COUNTER CODE
+//counter code
 var button=document.getElementById('counter');
 button.onclick=function()
 {
@@ -15,6 +15,6 @@ button.onclick=function()
             }
         }
     };
-    request.open('GET','http://nishant8055.imad.hasura-app.io/counter',true);
+    request.open('GET','http;//nishant8055.imad.hasura-app.io/counter',true);
     request.send(null);
 };

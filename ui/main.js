@@ -15,7 +15,7 @@ button.onclick=function()
            }
        }
     };
-    request.open('GET','http://nishant8055.imad.hasura-app.io/counter',true);
+    request.open('GET','https://nishant8055.imad.hasura-app.io/counter',true);
 request.send(null);
 };
 //submit name
@@ -42,6 +42,6 @@ ul.innerHTML=list;
 }
 }
 };
-request.open('GET','http://nishant8055.imad.hasura-app.io/submit-name?name='+name,true);
+request.open('GET','https://nishant8055.imad.hasura-app.io/submit-name?name='+name,true);
 request.send(null);
 };

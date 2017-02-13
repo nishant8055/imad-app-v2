@@ -18,6 +18,6 @@ button.onclick=function()
     }
     //not done yet
     };
-    request.open('GET','nishant8055.imad.hasura-app.io/counter',true);
+    request.open('GET','http://nishant8055.imad.hasura-app.io/counter',true);
     request.send(true);
 };

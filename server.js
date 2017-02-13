@@ -103,7 +103,7 @@ app.get('/submit-name/:name',function(req,res)
     //get the name from the request
     var name;//1000
     names.push(name);
-    res.send(JSON.Stringify(names));//1000
+    res.send(JSON.stringify(names));//1000
 });
 
 

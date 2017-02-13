@@ -20,5 +20,5 @@ button.onclick=function()
        //not done yet
     };
     request.open('GET','http://nishant8055.imad.hasura-app.io/counter',true);
-    request.send(true);
+    request.send(null);
 };
